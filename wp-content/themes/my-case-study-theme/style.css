@@ -1,0 +1,55 @@
+/*
+Theme Name: My Case Study Theme
+Theme URI: http://example.com
+Author: Your Name
+Author URI: http://example.com
+Description: Custom theme for Case Studies
+Version: 1.0
+License: GNU General Public License v2 or later
+Text Domain: my-case-study-theme
+*/
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+a {
+    color: #0073aa;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.case-study-item {
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+}
+.back-link {
+    display: inline-block;
+    margin: 15px 0;
+    padding: 8px 12px;
+    background: #f0f0f0;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #333;
+}
+.back-link:hover {
+    background: #ddd;
+    color: #000;
+}
